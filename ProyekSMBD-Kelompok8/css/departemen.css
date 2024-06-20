@@ -1,0 +1,43 @@
+/* Custom styles for this template */
+body {
+    padding-top: 56px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 60px;
+    }
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #fff;
+    font-weight: bold;
+}
+
+.table thead th {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th, .table-bordered thead td {
+    border-bottom-width: 2px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
